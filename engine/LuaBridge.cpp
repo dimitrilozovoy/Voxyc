@@ -1764,6 +1764,21 @@ static int setwgtex(lua_State* L)
 	return 0;
 }
 
+static int setwgpos(lua_State* L)
+{
+	std::string name = lua_tostring(L, 1);
+	float x = lua_tonumber(L, 2);
+	float y = lua_tonumber(L, 3);
+
+	if (g_engine2->getGUI()->getWidgets()[name] == nullptr)
+		return 0;
+
+	g_engine2->getGUI()->getWidgets()[name]->position.x = x;
+	g_engine2->getGUI()->getWidgets()[name]->position.y = y;
+
+	return 0;
+}
+
 static int setwgvisible(lua_State *L)
 {
 	std::string name = lua_tostring(L, 1);
@@ -2691,6 +2706,7 @@ void LuaBridge::init(Engine2 *engine)
 	lua_register(L, "remwg", remwg);
 	lua_register(L, "setwgtext", setwgtext);
 	lua_register(L, "setwgtex", setwgtex);
+	lua_register(L, "setwgpos", setwgpos);
     lua_register(L, "setwgvisible", setwgvisible);
 	lua_register(L, "setwggroupvisible", setwggroupvisible);
 	lua_register(L, "setwgcolor", setwgcolor);

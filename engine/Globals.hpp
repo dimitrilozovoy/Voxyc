@@ -28,7 +28,7 @@ SOFTWARE.
 #include "Common.h"
  
 #define DEFAULT_ASSETS_DIR "../../../../assets"
-#define DEFAULT_MODULE "editor2"
+#define DEFAULT_MODULE "luaprogram"
 #define CONFIG_FILENAME "config.ini"
 
 //#define USE_EXTERNAL_ASSETS
