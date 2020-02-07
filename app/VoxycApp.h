@@ -32,6 +32,8 @@ SOFTWARE.
 #include "../engine/Engine2.h"
 #include "LuaProgram.h"
 
+#define DEFAULT_MODULE = "editor2"
+
 class VoxycApp
 {
 public:

@@ -28,7 +28,6 @@ SOFTWARE.
 #include "Common.h"
  
 #define DEFAULT_ASSETS_DIR "../../../../assets"
-#define DEFAULT_MODULE "luaprogram"
 #define CONFIG_FILENAME "config.ini"
 
 //#define USE_EXTERNAL_ASSETS
@@ -40,7 +39,7 @@ SOFTWARE.
 
 #define PRODUCT_EARTH2084
 
-#define DEBUG_BUILD
+//#define DEBUG_BUILD
 
 //#define USE_API_CLIENT
 

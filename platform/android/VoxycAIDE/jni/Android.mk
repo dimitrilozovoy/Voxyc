@@ -61,10 +61,13 @@ LOCAL_SRC_FILES := hello-jni.cpp\
              ../../../../engine/Scene.cpp\
              ../../../../engine/Physics.cpp\
              ../../../../engine/VertexLights.cpp\
+             ../../../../engine/ReadData.cpp\
+             ../../../../engine/CustomTris.cpp\
              ../../../../app/main.cpp\
              ../../../../app/VoxycApp.cpp\
              ../../../../app/LuaProgram.cpp\
              ../../../../editor/Editor.cpp\
+             ../../../../editor/Editor2.cpp\
              ../../../../editor/EditorOld.cpp\
              ../../../../editor/OrthoEditor.cpp\
              ../../../../editor/ModelEditor.cpp\

@@ -15,6 +15,9 @@
 		300CD39A23A9EB31008F0270 /* osx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 300CD39923A9EB31008F0270 /* osx.cpp */; };
 		300CD39C23A9ED63008F0270 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300CD39B23A9ED63008F0270 /* CoreFoundation.framework */; };
 		300CD39E23A9EF66008F0270 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300CD39D23A9EF66008F0270 /* CoreServices.framework */; };
+		30391B9123ED0848005B8931 /* VoxycApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30391B8C23ED0848005B8931 /* VoxycApp.cpp */; };
+		30391B9223ED0848005B8931 /* LuaProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30391B8E23ED0848005B8931 /* LuaProgram.cpp */; };
+		30391B9323ED0848005B8931 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30391B9023ED0848005B8931 /* main.cpp */; };
 		303F531F23A8127100456181 /* SkeletalRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 303F52C723A8126A00456181 /* SkeletalRenderer.cpp */; };
 		303F532023A8127100456181 /* Globals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 303F52C823A8126A00456181 /* Globals.cpp */; };
 		303F532123A8127100456181 /* SpriteRenderer2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 303F52CE23A8126A00456181 /* SpriteRenderer2D.cpp */; };
@@ -57,9 +60,6 @@
 		303F534623A8127100456181 /* Voxels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 303F531B23A8127000456181 /* Voxels.cpp */; };
 		303F534723A8127100456181 /* OBJWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 303F531D23A8127100456181 /* OBJWriter.cpp */; };
 		303F534823A8127100456181 /* Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 303F531E23A8127100456181 /* Object.cpp */; };
-		303F535023A813A300456181 /* LuaProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 303F534A23A813A300456181 /* LuaProgram.cpp */; };
-		303F535123A813A300456181 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 303F534C23A813A300456181 /* main.cpp */; };
-		303F535223A813A300456181 /* VoxycApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 303F534D23A813A300456181 /* VoxycApp.cpp */; };
 		303F539223A81B6700456181 /* lbitlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 303F535623A81B6100456181 /* lbitlib.c */; };
 		303F539323A81B6700456181 /* lua.c in Sources */ = {isa = PBXBuildFile; fileRef = 303F535723A81B6100456181 /* lua.c */; };
 		303F539423A81B6700456181 /* lparser.c in Sources */ = {isa = PBXBuildFile; fileRef = 303F535823A81B6100456181 /* lparser.c */; };
@@ -132,6 +132,12 @@
 		300CD39923A9EB31008F0270 /* osx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = osx.cpp; sourceTree = "<group>"; };
 		300CD39B23A9ED63008F0270 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		300CD39D23A9EF66008F0270 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		30391B8B23ED0848005B8931 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = main.h; path = ../../../../app/main.h; sourceTree = "<group>"; };
+		30391B8C23ED0848005B8931 /* VoxycApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VoxycApp.cpp; path = ../../../../app/VoxycApp.cpp; sourceTree = "<group>"; };
+		30391B8D23ED0848005B8931 /* VoxycApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VoxycApp.h; path = ../../../../app/VoxycApp.h; sourceTree = "<group>"; };
+		30391B8E23ED0848005B8931 /* LuaProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LuaProgram.cpp; path = ../../../../app/LuaProgram.cpp; sourceTree = "<group>"; };
+		30391B8F23ED0848005B8931 /* LuaProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LuaProgram.h; path = ../../../../app/LuaProgram.h; sourceTree = "<group>"; };
+		30391B9023ED0848005B8931 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../../app/main.cpp; sourceTree = "<group>"; };
 		303F52C723A8126A00456181 /* SkeletalRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SkeletalRenderer.cpp; path = ../../../../../engine/SkeletalRenderer.cpp; sourceTree = "<group>"; };
 		303F52C823A8126A00456181 /* Globals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Globals.cpp; path = ../../../../../engine/Globals.cpp; sourceTree = "<group>"; };
 		303F52C923A8126A00456181 /* Billboarder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Billboarder.h; path = ../../../../../engine/Billboarder.h; sourceTree = "<group>"; };
@@ -220,12 +226,6 @@
 		303F531C23A8127100456181 /* OzzRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OzzRenderer.h; path = ../../../../../engine/OzzRenderer.h; sourceTree = "<group>"; };
 		303F531D23A8127100456181 /* OBJWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OBJWriter.cpp; path = ../../../../../engine/OBJWriter.cpp; sourceTree = "<group>"; };
 		303F531E23A8127100456181 /* Object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Object.cpp; path = ../../../../../engine/Object.cpp; sourceTree = "<group>"; };
-		303F534A23A813A300456181 /* LuaProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LuaProgram.cpp; path = ../../../../../app/LuaProgram.cpp; sourceTree = "<group>"; };
-		303F534B23A813A300456181 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = main.h; path = ../../../../../app/main.h; sourceTree = "<group>"; };
-		303F534C23A813A300456181 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../../../app/main.cpp; sourceTree = "<group>"; };
-		303F534D23A813A300456181 /* VoxycApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VoxycApp.cpp; path = ../../../../../app/VoxycApp.cpp; sourceTree = "<group>"; };
-		303F534E23A813A300456181 /* VoxycApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VoxycApp.h; path = ../../../../../app/VoxycApp.h; sourceTree = "<group>"; };
-		303F534F23A813A300456181 /* LuaProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LuaProgram.h; path = ../../../../../app/LuaProgram.h; sourceTree = "<group>"; };
 		303F535523A81B6100456181 /* lua.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = lua.hpp; path = ../../../../../../thirdparty/lua/lua.hpp; sourceTree = "<group>"; };
 		303F535623A81B6100456181 /* lbitlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lbitlib.c; path = ../../../../../../thirdparty/lua/lbitlib.c; sourceTree = "<group>"; };
 		303F535723A81B6100456181 /* lua.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lua.c; path = ../../../../../../thirdparty/lua/lua.c; sourceTree = "<group>"; };
@@ -353,6 +353,19 @@
 			name = lodepng;
 			sourceTree = "<group>";
 		};
+		30391B8A23ED082D005B8931 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				30391B8E23ED0848005B8931 /* LuaProgram.cpp */,
+				30391B8F23ED0848005B8931 /* LuaProgram.h */,
+				30391B9023ED0848005B8931 /* main.cpp */,
+				30391B8B23ED0848005B8931 /* main.h */,
+				30391B8C23ED0848005B8931 /* VoxycApp.cpp */,
+				30391B8D23ED0848005B8931 /* VoxycApp.h */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
 		303F52C623A8118200456181 /* engine */ = {
 			isa = PBXGroup;
 			children = (
@@ -446,19 +459,6 @@
 				303F530B23A8126F00456181 /* Voxels.h */,
 			);
 			path = engine;
-			sourceTree = "<group>";
-		};
-		303F534923A812F100456181 /* app */ = {
-			isa = PBXGroup;
-			children = (
-				303F534A23A813A300456181 /* LuaProgram.cpp */,
-				303F534F23A813A300456181 /* LuaProgram.h */,
-				303F534C23A813A300456181 /* main.cpp */,
-				303F534B23A813A300456181 /* main.h */,
-				303F534D23A813A300456181 /* VoxycApp.cpp */,
-				303F534E23A813A300456181 /* VoxycApp.h */,
-			);
-			path = app;
 			sourceTree = "<group>";
 		};
 		303F535323A8169600456181 /* thirdparty */ = {
@@ -561,9 +561,9 @@
 		30AD57A02384BEF20030F578 /* Voxyc */ = {
 			isa = PBXGroup;
 			children = (
+				30391B8A23ED082D005B8931 /* app */,
 				300C519A23AAFC4B009E48DF /* editor */,
 				303F535323A8169600456181 /* thirdparty */,
-				303F534923A812F100456181 /* app */,
 				303F52C623A8118200456181 /* engine */,
 				30AD57A12384BEF20030F578 /* main.cpp */,
 				300CD39923A9EB31008F0270 /* osx.cpp */,
@@ -659,12 +659,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				303F53A423A81B6700456181 /* lfunc.c in Sources */,
+				30391B9223ED0848005B8931 /* LuaProgram.cpp in Sources */,
+				30391B9123ED0848005B8931 /* VoxycApp.cpp in Sources */,
 				303F53B423A81B6700456181 /* lopcodes.c in Sources */,
+				30391B9323ED0848005B8931 /* main.cpp in Sources */,
 				303F532023A8127100456181 /* Globals.cpp in Sources */,
-				303F535023A813A300456181 /* LuaProgram.cpp in Sources */,
 				300CD39A23A9EB31008F0270 /* osx.cpp in Sources */,
 				303F532523A8127100456181 /* TextPrinter.cpp in Sources */,
-				303F535223A813A300456181 /* VoxycApp.cpp in Sources */,
 				303F53A123A81B6700456181 /* luac.c in Sources */,
 				300C51A423AAFC69009E48DF /* EditorOld.cpp in Sources */,
 				303F532223A8127100456181 /* Renderer.cpp in Sources */,
@@ -734,7 +735,6 @@
 				303F539523A81B6700456181 /* ldump.c in Sources */,
 				303F534023A8127100456181 /* ModelRenderer.cpp in Sources */,
 				303F532923A8127100456181 /* ShadowMap.cpp in Sources */,
-				303F535123A813A300456181 /* main.cpp in Sources */,
 				303F53AF23A81B6700456181 /* ldblib.c in Sources */,
 				303F533623A8127100456181 /* SkyboxRenderer.cpp in Sources */,
 				303F534123A8127100456181 /* Controls2.cpp in Sources */,
