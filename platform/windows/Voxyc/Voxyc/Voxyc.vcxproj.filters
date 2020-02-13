@@ -458,5 +458,11 @@
     <ClCompile Include="..\..\..\..\engine\ReadData.cpp">
       <Filter>Source Files\engine</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\editor\Editor2.cpp">
+      <Filter>Source Files\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\editor\SectorEditor.cpp">
+      <Filter>Source Files\editor</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

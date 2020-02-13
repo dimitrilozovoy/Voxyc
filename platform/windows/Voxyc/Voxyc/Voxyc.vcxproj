@@ -203,9 +203,11 @@
     <ClCompile Include="..\..\..\..\app\main.cpp" />
     <ClCompile Include="..\..\..\..\app\VoxycApp.cpp" />
     <ClCompile Include="..\..\..\..\editor\Editor.cpp" />
+    <ClCompile Include="..\..\..\..\editor\Editor2.cpp" />
     <ClCompile Include="..\..\..\..\editor\EditorOld.cpp" />
     <ClCompile Include="..\..\..\..\editor\ModelEditor.cpp" />
     <ClCompile Include="..\..\..\..\editor\OrthoEditor.cpp" />
+    <ClCompile Include="..\..\..\..\editor\SectorEditor.cpp" />
     <ClCompile Include="..\..\..\..\engine\Audio.cpp" />
     <ClCompile Include="..\..\..\..\engine\Batch.cpp" />
     <ClCompile Include="..\..\..\..\engine\Batcher.cpp" />
