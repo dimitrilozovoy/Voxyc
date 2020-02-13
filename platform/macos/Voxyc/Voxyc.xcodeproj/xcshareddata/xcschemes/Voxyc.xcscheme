@@ -77,7 +77,11 @@
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "--module editor"
+            argument = "--module editor2"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "--module sectoreditor"
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument

@@ -64,6 +64,23 @@ SOFTWARE.
 #include "Physics.h"
 #include "VertexLights.h"
 
+typedef struct Line2D
+{
+	std::string name;
+	float x1;
+	float y1;
+	float x2;
+	float y2;
+} Line2D;
+
+typedef struct Sprite2D
+{
+	std::string name;
+	float x;
+	float y;
+	std::string tex;
+} Sprite2D;
+
 class Engine2
 {
 public:
@@ -277,6 +294,14 @@ public:
 	int &lastAction2,
 	float &lastX2,
 	float &lastY2);
+	
+	// 2D
+	void addLine2D(std::string name, float x1, float y1, float x2, float y2);
+	void removeLine2D(std::string name);
+	void addSprite2D(std::string name, float x, float y, std::string tex);
+	void removeSprite2D(std::string name);
+	void setCamera2D(float x, float y);
+	void setZoom2D(float z);
 
 private:
 	ShapeRenderer shapeRenderer;
@@ -357,6 +382,10 @@ private:
 	int lastTAction2 = 0;
 	float lastTX2 = 0.0f;
 	float lastTY2 = 0.0f;
+	
+	// 2D
+	std::map<std::string, Line2D> lines2d;
+	std::map<std::string, Sprite2D> sprites2d;
 };
 
 extern Engine2 *g_engine2;

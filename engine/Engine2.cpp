@@ -3113,3 +3113,53 @@ void Engine2::getLastTouchEvent(
 	  lastY2 = this->lastTY2;
 	}
 
+/*
+ ========================================
+ 2D
+ ========================================
+ */
+ 
+void Engine2::addLine2D(std::string name, float x1, float y1, float x2, float y2)
+{
+	Line2D line;
+	
+	line.name = name;
+	line.x1 = x1;
+	line.y1 = y1;
+	line.x2 = x2;
+	line.y2 = y2;
+	
+	lines2d[name] = line;
+}
+
+void Engine2::removeLine2D(std::string name)
+{
+	lines2d.erase(name);
+}
+
+void Engine2::addSprite2D(std::string name, float x, float y, std::string tex)
+{
+	Sprite2D s;
+	
+	s.name = name;
+	s.x = x;
+	s.y = y;
+    s.tex = tex;
+	
+    sprites2d[name] = s;
+}
+
+void Engine2::removeSprite2D(std::string name)
+{
+    sprites2d.erase(name);
+}
+
+void Engine2::setCamera2D(float x, float y)
+{
+	
+}
+
+void Engine2::setZoom2D(float z)
+{
+	
+}

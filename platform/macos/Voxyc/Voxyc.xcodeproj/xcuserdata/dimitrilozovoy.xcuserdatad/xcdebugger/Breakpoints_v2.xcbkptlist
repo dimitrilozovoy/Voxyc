@@ -17,7 +17,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "143"
             endingLineNumber = "143"
-            landmarkName = "TextureManager2::load(std::string name, bool external)"
+            landmarkName = "TextureManager2::load(name, external)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -34,7 +34,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "153"
             endingLineNumber = "153"
-            landmarkName = "TextureManager2::load(std::string name, bool external)"
+            landmarkName = "TextureManager2::load(name, external)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -51,7 +51,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "159"
             endingLineNumber = "159"
-            landmarkName = "TextureManager2::load(std::string name, bool external)"
+            landmarkName = "TextureManager2::load(name, external)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -204,7 +204,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "303"
             endingLineNumber = "303"
-            landmarkName = "GUI::addWg(std::string name, WidgetType type, std::string texture, std::string text, std::string onClickExtra, std::string group, float x, float y, float sizex, float sizey)"
+            landmarkName = "GUI::addWg(name, type, texture, text, onClickExtra, group, x, y, sizex, sizey)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -323,7 +323,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "164"
             endingLineNumber = "164"
-            landmarkName = "Engine2::draw(int eye)"
+            landmarkName = "Engine2::draw(eye)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -459,7 +459,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "829"
             endingLineNumber = "829"
-            landmarkName = "GUI::down()"
+            landmarkName = "GUI::up()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -578,7 +578,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "630"
             endingLineNumber = "630"
-            landmarkName = "SpriteRenderer2D::DrawSprite(float xshift, float yshift, float scalex, float scaley, int glTexID, float r, float g, float b, float a, bool noaspect)"
+            landmarkName = "SpriteRenderer2D::DrawSprite(xshift, yshift, scalex, scaley, glTexID, r, g, b, a, noaspect)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -595,7 +595,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "155"
             endingLineNumber = "155"
-            landmarkName = "TextureManager2::load(std::string name, bool external)"
+            landmarkName = "TextureManager2::load(name, external)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -697,7 +697,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "515"
             endingLineNumber = "515"
-            landmarkName = "GUI::showFileSelector(std::string ext, std::string sdir)"
+            landmarkName = "GUI::showFileSelector(ext, sdir)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -765,7 +765,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "486"
             endingLineNumber = "486"
-            landmarkName = "GUI::showFileSelector(std::string ext, std::string sdir)"
+            landmarkName = "GUI::showFileSelector(ext, sdir)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -782,7 +782,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "519"
             endingLineNumber = "519"
-            landmarkName = "GUI::showFileSelector(std::string ext, std::string sdir)"
+            landmarkName = "GUI::showFileSelector(ext, sdir)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -918,7 +918,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "363"
             endingLineNumber = "363"
-            landmarkName = "GUI::getOnClickExtraIfClicked(int action, float x, float y, int finger, int count)"
+            landmarkName = "GUI::setWgColor(name, r, g, b, a)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -952,7 +952,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1079"
             endingLineNumber = "1079"
-            landmarkName = "GUI::enter()"
+            landmarkName = "GUI::right()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -969,7 +969,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "442"
             endingLineNumber = "442"
-            landmarkName = "GUI::showFileSelector(std::string ext, std::string sdir)"
+            landmarkName = "GUI::show()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -986,7 +986,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "468"
             endingLineNumber = "468"
-            landmarkName = "OrthoEditor::saveVoxels(std::string filename)"
+            landmarkName = "OrthoEditor::saveVoxels(filename)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1020,7 +1020,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "452"
             endingLineNumber = "452"
-            landmarkName = "OrthoEditor::loadVoxels(std::string filename)"
+            landmarkName = "OrthoEditor::loadVoxels(filename)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1071,7 +1071,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "638"
             endingLineNumber = "638"
-            landmarkName = "OrthoEditor::touchEvent(int count, int action1, float x1, float y1, int action2, float x2, float y2, int actionIndex, bool ndcCoords)"
+            landmarkName = "OrthoEditor::touchEvent(count, action1, x1, y1, action2, x2, y2, actionIndex, ndcCoords)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1207,7 +1207,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1905"
             endingLineNumber = "1905"
-            landmarkName = "Engine2::checkSight(Object *src, Object *dst, float yofs)"
+            landmarkName = "Engine2::checkSight(src, dst, yofs)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1224,7 +1224,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1904"
             endingLineNumber = "1904"
-            landmarkName = "Engine2::checkSight(Object *src, Object *dst, float yofs)"
+            landmarkName = "Engine2::checkSight(src, dst, yofs)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1241,7 +1241,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1902"
             endingLineNumber = "1902"
-            landmarkName = "Engine2::checkSight(Object *src, Object *dst, float yofs)"
+            landmarkName = "Engine2::checkSight(src, dst, yofs)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1259,6 +1259,70 @@
             startingLineNumber = "3074"
             endingLineNumber = "3074"
             landmarkName = "Engine2::updateOptLists()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55A32A55-0373-4A8C-936B-D226A7CEFAB7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../editor/Editor2.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "Editor2::load()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AFAEC26F-5845-4D87-B138-13803C44C4AB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../app/VoxycApp.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "VoxycApp::init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55F5478D-CE01-4A74-93BB-4822C86E68D3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../engine/Engine2.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
+            landmarkName = "Engine2::draw(eye)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D928B03-F272-459E-BADC-056DA28E6C84"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../engine/TextureManager2.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "TextureManager2::load(name, external)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

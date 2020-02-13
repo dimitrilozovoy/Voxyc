@@ -55,10 +55,12 @@ void VoxycApp::init()
 
 	if (module == "editor")
 		editor.init();
-	if (module == "editor2")
+	else if (module == "editor2")
 		editor2.init();
 	else if (module == "orthoeditor")
         orthoEditor.init();
+    else if (module == "sectoreditor")
+        sectorEditor.init();
 	else if (module == "modeleditor")
         modelEditor.init();
 	else if (module == "luaprogram")
@@ -80,6 +82,8 @@ void VoxycApp::load()
 		editor2.load();
 	else if (module == "orthoeditor")
 		orthoEditor.load();
+    else if (module == "sectoreditor")
+        sectorEditor.load();
 	else if (module == "modeleditor")
 		modelEditor.load();
 	else if (module == "luaprogram")

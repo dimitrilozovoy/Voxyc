@@ -15,6 +15,8 @@
 		300CD39A23A9EB31008F0270 /* osx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 300CD39923A9EB31008F0270 /* osx.cpp */; };
 		300CD39C23A9ED63008F0270 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300CD39B23A9ED63008F0270 /* CoreFoundation.framework */; };
 		300CD39E23A9EF66008F0270 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300CD39D23A9EF66008F0270 /* CoreServices.framework */; };
+		301EAA4823F3B83300714403 /* SectorEditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 301EAA4623F3B83300714403 /* SectorEditor.cpp */; };
+		301EAA4B23F3D2F700714403 /* PointRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 301EAA4A23F3D2F700714403 /* PointRenderer.cpp */; };
 		30391B9123ED0848005B8931 /* VoxycApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30391B8C23ED0848005B8931 /* VoxycApp.cpp */; };
 		30391B9223ED0848005B8931 /* LuaProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30391B8E23ED0848005B8931 /* LuaProgram.cpp */; };
 		30391B9323ED0848005B8931 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30391B9023ED0848005B8931 /* main.cpp */; };
@@ -132,6 +134,10 @@
 		300CD39923A9EB31008F0270 /* osx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = osx.cpp; sourceTree = "<group>"; };
 		300CD39B23A9ED63008F0270 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		300CD39D23A9EF66008F0270 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		301EAA4623F3B83300714403 /* SectorEditor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SectorEditor.cpp; path = ../../../../editor/SectorEditor.cpp; sourceTree = "<group>"; };
+		301EAA4723F3B83300714403 /* SectorEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SectorEditor.h; path = ../../../../editor/SectorEditor.h; sourceTree = "<group>"; };
+		301EAA4923F3D2F700714403 /* PointRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PointRenderer.h; path = ../../../../../engine/PointRenderer.h; sourceTree = "<group>"; };
+		301EAA4A23F3D2F700714403 /* PointRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PointRenderer.cpp; path = ../../../../../engine/PointRenderer.cpp; sourceTree = "<group>"; };
 		30391B8B23ED0848005B8931 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = main.h; path = ../../../../app/main.h; sourceTree = "<group>"; };
 		30391B8C23ED0848005B8931 /* VoxycApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VoxycApp.cpp; path = ../../../../app/VoxycApp.cpp; sourceTree = "<group>"; };
 		30391B8D23ED0848005B8931 /* VoxycApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VoxycApp.h; path = ../../../../app/VoxycApp.h; sourceTree = "<group>"; };
@@ -340,6 +346,8 @@
 				300C519B23AAFC69009E48DF /* ModelEditor.h */,
 				300C51A023AAFC69009E48DF /* OrthoEditor.cpp */,
 				300C51A223AAFC69009E48DF /* OrthoEditor.h */,
+				301EAA4623F3B83300714403 /* SectorEditor.cpp */,
+				301EAA4723F3B83300714403 /* SectorEditor.h */,
 			);
 			name = editor;
 			sourceTree = "<group>";
@@ -369,6 +377,8 @@
 		303F52C623A8118200456181 /* engine */ = {
 			isa = PBXGroup;
 			children = (
+				301EAA4A23F3D2F700714403 /* PointRenderer.cpp */,
+				301EAA4923F3D2F700714403 /* PointRenderer.h */,
 				303F530423A8126E00456181 /* Audio.cpp */,
 				303F52F723A8126D00456181 /* Audio.h */,
 				303F52F523A8126D00456181 /* Batch.cpp */,
@@ -690,6 +700,7 @@
 				303F53AE23A81B6700456181 /* liolib.c in Sources */,
 				303F533423A8127100456181 /* Camera.cpp in Sources */,
 				303F539423A81B6700456181 /* lparser.c in Sources */,
+				301EAA4B23F3D2F700714403 /* PointRenderer.cpp in Sources */,
 				303F534723A8127100456181 /* OBJWriter.cpp in Sources */,
 				303F53A723A81B6700456181 /* lbaselib.c in Sources */,
 				303F539923A81B6700456181 /* lmathlib.c in Sources */,
@@ -724,6 +735,7 @@
 				303F53A223A81B6700456181 /* linit.c in Sources */,
 				303F539D23A81B6700456181 /* lcode.c in Sources */,
 				303F532E23A8127100456181 /* Framebuffer.cpp in Sources */,
+				301EAA4823F3B83300714403 /* SectorEditor.cpp in Sources */,
 				303F532823A8127100456181 /* SpriteRenderer.cpp in Sources */,
 				303F533123A8127100456181 /* TextureAtlas.cpp in Sources */,
 				30AD57A22384BEF20030F578 /* main.cpp in Sources */,

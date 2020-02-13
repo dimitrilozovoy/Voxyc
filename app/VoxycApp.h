@@ -28,6 +28,7 @@ SOFTWARE.
 #include "../editor/Editor2.h"
 #include "../editor/EditorOld.h"
 #include "../editor/OrthoEditor.h"
+#include "../editor/SectorEditor.h"
 #include "../editor/ModelEditor.h"
 #include "../engine/Engine2.h"
 #include "LuaProgram.h"
@@ -63,6 +64,7 @@ private:
 	Editor2 editor2;
 	EditorOld editorOld;
 	OrthoEditor orthoEditor;
+    SectorEditor sectorEditor;
 	ModelEditor modelEditor;
 	LuaProgram luaProgram;
 
