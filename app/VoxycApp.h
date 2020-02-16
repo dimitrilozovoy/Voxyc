@@ -26,6 +26,7 @@ SOFTWARE.
 #include <stdio.h>
 #include "../editor/Editor.h"
 #include "../editor/Editor2.h"
+#include "../editor/SceneEditor2D.h"
 #include "../editor/EditorOld.h"
 #include "../editor/OrthoEditor.h"
 #include "../editor/SectorEditor.h"
@@ -62,6 +63,7 @@ private:
 
 	Editor editor;
 	Editor2 editor2;
+    SceneEditor2D sceneEditor2D;
 	EditorOld editorOld;
 	OrthoEditor orthoEditor;
     SectorEditor sectorEditor;

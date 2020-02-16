@@ -66,19 +66,23 @@
          </CommandLineArgument>
          <CommandLineArgument
             argument = "--assets /Users/dimitrilozovoy/Fateless"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "--assets /Users/dimitrilozovoy/Voxyc/assets"
-            isEnabled = "NO">
+            isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "--fullscreen 0"
-            isEnabled = "NO">
+            isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "--module editor2"
             isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "--module sceneeditor2d"
+            isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "--module sectoreditor"
@@ -86,7 +90,7 @@
          </CommandLineArgument>
          <CommandLineArgument
             argument = "--module luaprogram"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
       </CommandLineArguments>
    </LaunchAction>

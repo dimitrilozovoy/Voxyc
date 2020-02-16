@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300B614823F5DF9300987042 /* SceneEditor2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 300B614623F5DF9300987042 /* SceneEditor2D.cpp */; };
 		300C51A323AAFC69009E48DF /* Editor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 300C519D23AAFC69009E48DF /* Editor.cpp */; };
 		300C51A423AAFC69009E48DF /* EditorOld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 300C519F23AAFC69009E48DF /* EditorOld.cpp */; };
 		300C51A523AAFC69009E48DF /* OrthoEditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 300C51A023AAFC69009E48DF /* OrthoEditor.cpp */; };
@@ -120,6 +121,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		300B614623F5DF9300987042 /* SceneEditor2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SceneEditor2D.cpp; path = ../../../../editor/SceneEditor2D.cpp; sourceTree = "<group>"; };
+		300B614723F5DF9300987042 /* SceneEditor2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SceneEditor2D.h; path = ../../../../editor/SceneEditor2D.h; sourceTree = "<group>"; };
 		300C092A23A89287004B35B0 /* SimpleIni.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleIni.h; path = ../../../../../../thirdparty/SimpleIni/SimpleIni.h; sourceTree = "<group>"; };
 		300C519B23AAFC69009E48DF /* ModelEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelEditor.h; path = ../../../../editor/ModelEditor.h; sourceTree = "<group>"; };
 		300C519C23AAFC69009E48DF /* Editor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Editor.h; path = ../../../../editor/Editor.h; sourceTree = "<group>"; };
@@ -348,6 +351,8 @@
 				300C51A223AAFC69009E48DF /* OrthoEditor.h */,
 				301EAA4623F3B83300714403 /* SectorEditor.cpp */,
 				301EAA4723F3B83300714403 /* SectorEditor.h */,
+				300B614623F5DF9300987042 /* SceneEditor2D.cpp */,
+				300B614723F5DF9300987042 /* SceneEditor2D.h */,
 			);
 			name = editor;
 			sourceTree = "<group>";
@@ -713,6 +718,7 @@
 				303F534623A8127100456181 /* Voxels.cpp in Sources */,
 				303F53A323A81B6700456181 /* loslib.c in Sources */,
 				303F539223A81B6700456181 /* lbitlib.c in Sources */,
+				300B614823F5DF9300987042 /* SceneEditor2D.cpp in Sources */,
 				303F53A523A81B6700456181 /* ldo.c in Sources */,
 				30C373B423CFE9B4006D75A0 /* alhelpers.c in Sources */,
 				303F532123A8127100456181 /* SpriteRenderer2D.cpp in Sources */,

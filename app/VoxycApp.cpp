@@ -57,6 +57,8 @@ void VoxycApp::init()
 		editor.init();
 	else if (module == "editor2")
 		editor2.init();
+    else if (module == "sceneeditor2d")
+        sceneEditor2D.init();
 	else if (module == "orthoeditor")
         orthoEditor.init();
     else if (module == "sectoreditor")
@@ -80,6 +82,8 @@ void VoxycApp::load()
 		editor.load();
 	if (module == "editor2")
 		editor2.load();
+    if (module == "sceneeditor2d")
+        sceneEditor2D.load();
 	else if (module == "orthoeditor")
 		orthoEditor.load();
     else if (module == "sectoreditor")
@@ -149,6 +153,8 @@ void VoxycApp::fixedTick()
 		editor.tick();
 	if (module == "editor2")
 	    editor2.tick();	
+    if (module == "sceneeditor2d")
+        sceneEditor2D.tick();
 	else if (module == "orthoeditor")
 		orthoEditor.tick();
     else if (module == "modeleditor")

@@ -544,7 +544,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "222"
             endingLineNumber = "222"
-            landmarkName = "VoxycApp::makeUpLostFramesOrWait()"
+            landmarkName = "VoxycApp::calcFrameRate()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1139,7 +1139,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "421"
             endingLineNumber = "421"
-            landmarkName = "mouse_button_callback(GLFWwindow* window, int button, int action, int mods)"
+            landmarkName = "mouse_button_callback(window, button, action, mods)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1207,8 +1207,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1905"
             endingLineNumber = "1905"
-            landmarkName = "Engine2::checkSight(src, dst, yofs)"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1224,8 +1224,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1904"
             endingLineNumber = "1904"
-            landmarkName = "Engine2::checkSight(src, dst, yofs)"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1241,8 +1241,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1902"
             endingLineNumber = "1902"
-            landmarkName = "Engine2::checkSight(src, dst, yofs)"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1258,7 +1258,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "3074"
             endingLineNumber = "3074"
-            landmarkName = "Engine2::updateOptLists()"
+            landmarkName = "Engine2::checkGLError(tag)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1323,6 +1323,38 @@
             startingLineNumber = "74"
             endingLineNumber = "74"
             landmarkName = "TextureManager2::load(name, external)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4AE82ADC-2E3E-436E-AE86-BFEB84C0268E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../editor/SceneEditor2D.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "SceneEditor2D::tick()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E9714DC-9408-4338-8A34-387D94CA07E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../engine/GUI.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "564"
+            endingLineNumber = "564"
+            landmarkName = "GUI::showListMenuInDialog(title, options)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

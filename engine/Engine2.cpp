@@ -246,8 +246,24 @@ void Engine2::draw(int eye)
     checkGLError("glEnable");
 	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
     checkGLError("glBlendFunc");
+    
+    // Draw 2D sprites
+    for(const auto &pair: sprites2d)
+    {
+        Sprite2D s = pair.second;
+        Texture *tex = texMan.find("bluecube.png");
+        
+        if (tex != nullptr)
+        {
+            int glTexId = tex->glTexID;
+            spriteRenderer2D.DrawSprite(s.x, s.y, s.sizex, s.sizey, glTexId);
+        }
+    }
 
+    // Print text
 	textPrinter.draw();
+
+    // Draw GUI
 	gui.draw();
 
 	if (healthBarsVisible)
@@ -3137,13 +3153,15 @@ void Engine2::removeLine2D(std::string name)
 	lines2d.erase(name);
 }
 
-void Engine2::addSprite2D(std::string name, float x, float y, std::string tex)
+void Engine2::addSprite2D(std::string name, float x, float y, float sizex, float sizey, std::string tex)
 {
 	Sprite2D s;
 	
 	s.name = name;
 	s.x = x;
 	s.y = y;
+    s.sizex = sizex;
+    s.sizey = sizey;
     s.tex = tex;
 	
     sprites2d[name] = s;
@@ -3156,10 +3174,11 @@ void Engine2::removeSprite2D(std::string name)
 
 void Engine2::setCamera2D(float x, float y)
 {
-	
+    camera2d.x = x;
+    camera2d.y = y;
 }
 
 void Engine2::setZoom2D(float z)
 {
-	
+    zoom2d = z;
 }

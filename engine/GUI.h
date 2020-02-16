@@ -143,7 +143,11 @@ private:
 	SpriteRenderer2D *renderer;
 	TextPrinter *textPrinter;
 	bool hide_ = false;
+#ifdef PLATFORM_ANDROID
 	bool nativeWidgets = true;
+#else
+    bool nativeWidgets = false;
+#endif
 
 	std::vector<std::string> listMenu;
 	bool listMenuShown = false;

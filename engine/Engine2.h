@@ -78,6 +78,8 @@ typedef struct Sprite2D
 	std::string name;
 	float x;
 	float y;
+    float sizex;
+    float sizey;
 	std::string tex;
 } Sprite2D;
 
@@ -298,7 +300,7 @@ public:
 	// 2D
 	void addLine2D(std::string name, float x1, float y1, float x2, float y2);
 	void removeLine2D(std::string name);
-	void addSprite2D(std::string name, float x, float y, std::string tex);
+	void addSprite2D(std::string name, float x, float y, float sizex, float sizey, std::string tex);
 	void removeSprite2D(std::string name);
 	void setCamera2D(float x, float y);
 	void setZoom2D(float z);
@@ -386,6 +388,8 @@ private:
 	// 2D
 	std::map<std::string, Line2D> lines2d;
 	std::map<std::string, Sprite2D> sprites2d;
+    glm::vec2 camera2d;
+    float zoom2d;
 };
 
 extern Engine2 *g_engine2;
