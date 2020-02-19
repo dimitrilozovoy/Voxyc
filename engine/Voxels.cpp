@@ -406,7 +406,7 @@ void Voxels::build_process()
 					texture = voxelTextures[tex];
                     Texture *t = texMan->find(texture);
 
-					if (tex != 0)
+					if (t != nullptr && tex != 0)
 					{
 						// Expand quad along X
 						while (qendx < size && get(qendx, y, z) == tex && get(qendx, y + 1, z) == 0 && doneMap[qendz * size + qendx] == 0)
@@ -526,7 +526,7 @@ void Voxels::build_process()
 					texture = voxelTextures[tex];
                     Texture *t = texMan->find(texture);
 
-					if (tex != 0)
+					if (t != nullptr && tex != 0)
 					{
 						// Expand quad along X
 						while (qendx < size && get(qendx, qendy, z) == tex && get(qendx, qendy, z + 1) == 0 && doneMap[qendy * size + qendx] == 0)
@@ -645,7 +645,7 @@ void Voxels::build_process()
 					texture = voxelTextures[tex];
                     Texture *t = texMan->find(texture);
 
-					if (tex != 0)
+					if (t != nullptr && tex != 0)
 					{
 						// Expand quad along Z
 						while (qendz < size && get(x, qendy, qendz) == tex && get(x + 1, qendy, qendz) == 0 && doneMap[qendz * size + qendy] == 0)
@@ -766,7 +766,7 @@ void Voxels::build_process()
 					texture = voxelTextures[tex];
                     Texture *t = texMan->find(texture);
 
-					if (tex != 0)
+					if (t != nullptr && tex != 0)
 					{
 						// Expand quad along X
 						while (qendx < size && get(qendx, y, z) == tex && get(qendx, y - 1, z) == 0 && doneMap[qendz * size + qendx] == 0)
@@ -885,7 +885,7 @@ void Voxels::build_process()
 					texture = voxelTextures[tex];
                     Texture *t = texMan->find(texture);
 
-					if (tex != 0)
+					if (t != nullptr && tex != 0)
 					{
 						// Expand quad along Z
 						while (qendz < size && get(x, qendy, qendz) == tex && get(x - 1, qendy, qendz) == 0 && doneMap[qendz * size + qendy] == 0)
@@ -1006,7 +1006,7 @@ void Voxels::build_process()
 					texture = voxelTextures[tex];
                     Texture *t = texMan->find(texture);
 
-					if (tex != 0)
+					if (t != nullptr && tex != 0)
 					{
 						// Expand quad along X
 						while (qendx < size && get(qendx, qendy, z) == tex && get(qendx, qendy, z - 1) == 0 && doneMap[qendy * size + qendx] == 0)

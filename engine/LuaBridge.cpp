@@ -582,7 +582,7 @@ static int setroll(lua_State *L)
 static int setsecondaryyaw(lua_State *L)
 {
 	std::string name = lua_tostring(L, 1);
-	lua_Number yaw = lua_tonumber(L, 2);
+	lua_Number yaw = lua_tonumber(L, 2); 
 
 	Object *o = g_engine2->findObj(name);
 

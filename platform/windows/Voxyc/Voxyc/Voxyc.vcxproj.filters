@@ -464,5 +464,8 @@
     <ClCompile Include="..\..\..\..\editor\SectorEditor.cpp">
       <Filter>Source Files\editor</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\editor\SceneEditor2D.cpp">
+      <Filter>Source Files\editor</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

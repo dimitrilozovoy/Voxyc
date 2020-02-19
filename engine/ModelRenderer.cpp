@@ -325,7 +325,8 @@ void ModelRenderer::drawMesh(Object *object, Model2 *model, Mesh *mesh, Object *
 	}
     else
 		rotate = glm::rotate(glm::mat4(), glm::radians(-object->yaw - model->yaw), glm::vec3(0, 1, 0)) // Model yaw
-		* glm::rotate(glm::mat4(), glm::radians(-object->pitch - model->pitch), glm::vec3(1, 0, 0)); // Model pitch
+		* glm::rotate(glm::mat4(), glm::radians(-object->pitch - model->pitch), glm::vec3(1, 0, 0)) // Model pitch
+		* glm::rotate(glm::mat4(), glm::radians(-object->roll - model->roll), glm::vec3(0, 0, 1)); // Model roll
 
 	cameraRotate = glm::rotate(glm::mat4(), glm::radians(camera->roll), glm::vec3(0, 0, 1)) // Camera roll
 	* glm::rotate(glm::mat4(), -glm::radians(camera->pitch), glm::vec3(1, 0, 0)) // Camera pitch

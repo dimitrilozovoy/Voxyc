@@ -207,6 +207,7 @@
     <ClCompile Include="..\..\..\..\editor\EditorOld.cpp" />
     <ClCompile Include="..\..\..\..\editor\ModelEditor.cpp" />
     <ClCompile Include="..\..\..\..\editor\OrthoEditor.cpp" />
+    <ClCompile Include="..\..\..\..\editor\SceneEditor2D.cpp" />
     <ClCompile Include="..\..\..\..\editor\SectorEditor.cpp" />
     <ClCompile Include="..\..\..\..\engine\Audio.cpp" />
     <ClCompile Include="..\..\..\..\engine\Batch.cpp" />
